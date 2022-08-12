@@ -1,0 +1,8 @@
+<launch>
+        <include file="$(find rplidar_ros)/launch/bringup.launch"/>
+	<include file="$(find rplidar_ros)/launch/rplidar.launch"/>
+        <include file="$(find cartographer_ros)/launch/my_revo_lds.launch"/>
+        
+  
+
+</launch>

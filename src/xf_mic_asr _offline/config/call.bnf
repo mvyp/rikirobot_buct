@@ -1,0 +1,13 @@
+﻿﻿#BNF+IAT 1.0 UTF-8;
+!grammar call;
+!slot <want>;
+!slot <direction>;
+!slot <do>;
+!slot <what>;
+
+!start <callstart>;
+<callstart>:[<want>]<dowhat>;
+<want>:请你到|请去|请到;
+<dowhat>:<direction>[<do>];
+<direction>:客厅!id(1)|卧室!id(2)|书房!id(3)|走廊!id(4);
+<do>:打扫|清理垃圾|收拾垃圾|整理;

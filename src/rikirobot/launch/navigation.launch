@@ -1,0 +1,7 @@
+<launch>
+    <include file="$(find rikirobot)/launch/bringup.launch"/>
+    <include file="$(find rikirobot)/launch/nav_rplidar.launch"/>
+    <include file="$(find rikirobot)/launch/nav.launch"/>
+</launch>
+
+

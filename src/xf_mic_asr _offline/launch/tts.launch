@@ -1,0 +1,5 @@
+<launch>
+
+	<node name="tts_loc_sub" pkg="xf_mic_asr_offline" type="tts_loc_sub" output="screen"/>
+
+</launch>

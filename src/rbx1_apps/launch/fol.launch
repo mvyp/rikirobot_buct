@@ -1,0 +1,7 @@
+<launch>
+    <include file="$(find rikirobot)/launch/bringup.launch"/>
+    <include file="$(find astra_camera)/launch/astrapro.launch"/>
+    <include file="$(find rbx1_apps)/launch/follower2.launch"/>
+</launch>
+
+
